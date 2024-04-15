@@ -47,7 +47,7 @@ Execute the programs and publish them.
     Y-coordinate <input type="text" id="Y">
 
     <script>
-        function coordinate (event) {
+        function coordinate (event) { 
         let x = event.clientX;
         let y = event.clientY;
         document.getElementById("X").value = x
